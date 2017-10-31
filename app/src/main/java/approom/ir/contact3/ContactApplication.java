@@ -13,9 +13,6 @@ import java.util.List;
 
 public class ContactApplication extends Application {
 
-    List<ContactDBModel> list;
-
-
     @Override
     public void onCreate() {
         super.onCreate();

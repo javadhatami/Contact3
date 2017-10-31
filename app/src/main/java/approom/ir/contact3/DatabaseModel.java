@@ -9,7 +9,6 @@ import com.raizlabs.android.dbflow.structure.BaseModel;
  */
 
 @Table(database = ContactDatabase.class,allFields = true)
-
 public class DatabaseModel extends BaseModel{
 
     @PrimaryKey(autoincrement = true)
